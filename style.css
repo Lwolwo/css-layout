@@ -19,6 +19,7 @@ ul {
     height: 75px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     background-color: #000;
     z-index: 100;
 }
@@ -27,8 +28,6 @@ ul {
     border-radius: 50%;
     position: relative;
     left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .header .title {
@@ -38,8 +37,7 @@ ul {
 .header .nav {
     position: relative;
     right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+
 }
 
 .header .nav .list {
@@ -48,10 +46,10 @@ ul {
 
 .header .nav .list li {
     margin-left: 10px;
-    color: #FFF;
 }
 
-.header .nav .list a:visited {
+.header .nav .list a:link {
+    color: #FFF;
     margin-left: 10px;
 }
 
